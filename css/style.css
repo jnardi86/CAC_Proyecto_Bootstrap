@@ -1,4 +1,9 @@
+/* Navbar */
+.container-fluid span{
+  font-family: 'Poiret One', cursive;
+  font-size: 2em;
 
+}
 /* Hero Image Bs As*/
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/ba1.jpg");
