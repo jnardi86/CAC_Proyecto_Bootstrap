@@ -1,3 +1,5 @@
+
+
 /* Navbar */
 .container-fluid span{
   font-family: 'Poiret One', cursive;
@@ -47,4 +49,28 @@
 .footer-style .nav-link:hover {
   color: #7c7c7c !important;
 }
+
+/* ******************STYLE BUY TICKETS******************* */
+
+/* Categorias */
+
+.container-category{
+ margin-top: 50px;
+}
+
+.card{
+  box-shadow: 5px 5px 5px black;
+}
+
+
+
+/* Form Tickets */
+
+.bg-total{
+  background-color: rgb(132, 198, 236, 0.5);
+  height: 50px;
+  border-radius: 3px;
+}
+
+
 
