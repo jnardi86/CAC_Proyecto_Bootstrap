@@ -19,7 +19,7 @@
 
   <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
     <div class="container-fluid">
-      <img src="../img/codoacodo.png" alt="Logo Conferencia" width="100px">
+      <a href="../index.html"><img src="../img/codoacodo.png" alt="Logo Conferencia" width="100px"></a>
       <span class="navbar-text d-none d-lg-block text-white">Conf Bs As</span>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
@@ -47,7 +47,7 @@
   <div class="container container-category">
     <div class="row">
       <div class="col-md-4 mt-3">
-        <div class="card">
+        <div class="card cardCategory">
           <div class="card-body border border-primary">
             <h2 class="card-title text-center mt-3">Estudiante</h2>
             <h6 class="card-subtitle mb-2 text-center mt-4">Tienen un descuento</h6>
@@ -57,7 +57,7 @@
         </div>
       </div>
       <div class="col-md-4 mt-3">
-        <div class="card">
+        <div class="card cardCategory">
           <div class="card-body border border-primary">
             <h2 class="card-title text-center mt-3">Trainee</h2>
             <h6 class="card-subtitle mb-2 text-center mt-4">Tienen un descuento</h6>
@@ -67,7 +67,7 @@
         </div>
       </div>
       <div class="col-md-4 mt-3">
-        <div class="card">
+        <div class="card cardCategory">
           <div class="card-body border border-warning">
             <h2 class="card-title text-center mt-3">Junior</h2>
             <h6 class="card-subtitle mb-2 text-center mt-4">Tienen un descuento</h6>
@@ -92,13 +92,13 @@
         <div class="col-md-6">
           <div class="mb-2">
             <label for="name" class="form-label"></label>
-            <input type="name" class="form-control" id="name" placeholder="Nombre">
+            <input type="text" class="form-control" id="name" placeholder="Nombre">
           </div>
         </div>
         <div class="col-md-6">
           <div class="mb-2">
             <label for="lastname" class="form-label"></label>
-            <input type="name" class="form-control" id="lastname" placeholder="Apellido">
+            <input type="text" class="form-control" id="lastname" placeholder="Apellido">
           </div>
         </div>
       </div>
@@ -124,12 +124,12 @@
           </div>
         </div>
       </div>
-      <div class="bg-total mt-3 pt-3 ps-3 precioTotal">
-        <p class="text-primary fw-semibold">Total a pagar: </p>
+      <div class="bg-total mt-3 pt-3 ps-3">
+        <span class="text-primary fw-semibold precioTotal">Total a pagar: </span>
       </div>
       <div class="row">
         <div class="col-md-6 mt-3">
-          <button type="reset" class="btn btn-success w-100">Borrar</button>
+          <button type="reset" class="btn btn-success w-100" id="borrarTotal">Borrar</button>
         </div>
         <div class="col-md-6 mt-3">
           <button type="submit" class="btn btn-success w-100">Resumen</button>
@@ -172,7 +172,7 @@
   <script src="../js/bootstrap.bundle.min.js"
     integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
     crossorigin="anonymous"></script>
-    <script src="../js/buyTicket.js"></script>
+  <script src="../js/buyTicket.js"></script>
 </body>
 
 </html>
